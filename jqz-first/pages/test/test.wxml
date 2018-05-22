@@ -1,0 +1,4 @@
+<!--pages/test/test.wxml-->
+<view>你好</view>
+<view>当前页面：pages/test/test</view>
+<view>Hello World!</view>

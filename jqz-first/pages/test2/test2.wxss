@@ -1,0 +1,12 @@
+/* pages/test2/test2.wxss */
+view{
+  width: 100%;
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+}
+view text{
+  color: pink;
+  font-size: 30px;
+  font-weight: 800;
+}
