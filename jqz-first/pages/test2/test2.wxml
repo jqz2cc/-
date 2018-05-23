@@ -1,4 +1,14 @@
 <!--pages/test2/test2.wxml-->
-<view>[?]</view>
-<view>当前页面：pages/test/test</view>
+<view>[{{title}}]</view>
+<view>当前页面：{{url}}</view>
 <view>Hello <text>World!</text></view>
+<view wx:if='{{name=="波妞"}}'>
+   爱妃,寡人马上就到
+</view>
+<view wx:elif='{{name=="橙子"}}'>拜拜,我走了</view>
+<view wx:elif='{{name=="苍老师"}}'>亲爱的,我马上就到</view>
+<view wx:else>爱卿退下吧,朕乏啦</view>
+<view>for循环</view>
+<view wx:for="{{items}}">
+{{index+1}}:{{item.title}}
+</view>

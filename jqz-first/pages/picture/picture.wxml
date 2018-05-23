@@ -1,0 +1,11 @@
+<!--pages/picture/picture.wxml-->
+<view class='joke'>
+<view>笑话1</view>
+<view>
+<image src='/images/01.jpg'></image>
+</view>
+</view>
+<view class='joke'>
+<view>笑话2</view>
+<view><image src='/images/02.jpg'></image></view>
+</view>

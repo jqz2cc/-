@@ -1,0 +1,10 @@
+<!--pages/joke/joke.wxml-->
+<!-- <text>pages/joke/joke.wxml</text> -->
+<view class='joke'>
+<view>笑话1</view>
+<view>2018-5-23</view>
+</view>
+<view class='joke'>
+<view>笑话2</view>
+<view>2018-5-24</view>
+</view>

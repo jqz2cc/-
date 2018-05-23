@@ -8,3 +8,11 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+.joke{
+  margin: 10px;
+  padding:10px;
+  border-radius: 5px;
+  border-top:1px solid #DEDEDE;
+  border-left:1px solid #DEDEDE;
+  box-shadow: 2px 2px 2px #C7C7c7;
+  }
