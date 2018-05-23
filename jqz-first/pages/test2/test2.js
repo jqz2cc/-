@@ -6,7 +6,7 @@ Page({
   data: {
     title: "湖南工程学院",
     url: 'pages/test2/test2',
-    name: '波妞',
+    name: '波妞11',
     items: [{
         title: '上海',
         food: '生煎包'
