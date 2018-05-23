@@ -1,13 +1,12 @@
 // pages/test2/test2.js
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
     title: "湖南工程学院",
     url: 'pages/test2/test2',
-    name:'波妞',
+    name: '波妞',
     items: [{
         title: '上海',
         food: '生煎包'
