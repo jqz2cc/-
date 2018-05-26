@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/resume-first/resume-first",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "RESUME",
+    "navigationBarTextStyle": "black"
+  }
+}

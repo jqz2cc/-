@@ -1,0 +1,51 @@
+/* pages/resume-first/resume-first.wxss */
+
+/* 简历主体 */
+
+.lattice {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.lattice .lattice-item {
+  width: 30%;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 12px;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  border-bottom: 1px solid red;
+}
+
+.lattice .lattice-item text {
+  margin-top: 5px;
+}
+
+.lattice .lattice-item:nth-child(5) image {
+  background-color: pink;
+  border-radius: 50%;
+  width: 70%;
+  height: 70%;
+}
+
+.lattice .lattice-item:nth-child(5) {
+  position: relative;
+}
+
+.lattice .lattice-item:nth-child(5) text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-60%);
+}
+
+.lattice .lattice-item image {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}

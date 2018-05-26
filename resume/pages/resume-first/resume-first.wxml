@@ -1,0 +1,10 @@
+<!--pages/resume-first/resume-first.wxml-->
+<!-- 顶部轮播图  暂时空白 -->
+<view></view>
+<!--简历主体 -->
+<view class="lattice">
+  <navigator wx:for="{{imgs}}" wx:key="{{index}}" url='/pages/index/index' class="lattice-item">
+    <image src="{{item.url}}" alt=""></image>
+    <text>{{item.text}}</text>
+  </navigator>
+</view>
