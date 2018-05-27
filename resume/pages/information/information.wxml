@@ -1,0 +1,36 @@
+<!--pages/information/information.wxml-->
+<view class="body">
+  <image class="pic" src="/images/Plum-1.png"></image>
+  <view class="information">
+    <!-- 求职意向 -->
+    <view class="intention">
+      <view class="intention-title">求职意向</view>
+      <view class="intention-content">WEB前端工程师</view>
+    </view>
+    <!-- 基本信息 -->
+    <view class="personal wapper">
+      <view class="personal-basic">基本信息</view>
+      <view class="basic" wx:for="{{basic}}" wx:key="{{index}}">
+        <text class="basic-title">{{item.title}}</text>
+        <text class="basic-content">{{item.content}}</text>
+      </view>
+    </view>
+    <!-- GITHUB -->
+    <view class="github wapper">
+      <view class="personal-basic">GitHub</view>
+      <view class="github-content">
+        <image src="/images/github.png"></image>
+        <view>https://github.com/jqz2cc</view>
+      </view>
+    </view>
+    <!-- csdn -->
+    <view class="github wapper">
+      <view class="personal-basic">博客</view>
+      <view class="github-content">
+        <image src="/images/csdn.png"></image>
+        <view>https://blog.csdn.net/youngjqz</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="bottom"></view>

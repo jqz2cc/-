@@ -6,44 +6,55 @@ Page({
    */
   data: {
     imgs: [{
-        url: "/images/Plum-1.png",
-        text: "点击查看信息"
+        img: "/images/Plum-1.png",
+        text: "点击查看信息",
+        url: "/pages/information/information"
       },
       {
-        url: "/images/orchid.png",
-        text: "点击查看信息"
+        img: "/images/orchid.png",
+        text: "点击查看信息",
+        url: "/pages/information/information"
       },
       {
-        url: '/images/bamboo-1.png',
-        text: "点击查看信息"
+        img: '/images/bamboo-1.png',
+        text: "点击查看信息",
+        url: "/pages/information/information"
       },
       {
-        url: '/images/chrysanthemum.png',
-        text: "点击查看信息"
+        img: '/images/chrysanthemum.png',
+        text: "点击查看信息",
+        url: "/pages/information/information"
       },
       {
-        url: '',
-        text: "点击重新排序"
+        img: '',
+        text: "点击重新排序",
+        url: "/pages/information/information"
       },
       {
-        url: "/images/Piano.png",
-        text: "点击查看信息"
+        img: "/images/Piano.png",
+        text: "点击查看信息",
+        url: "/pages/information/information"
       },
       {
-        url: '/images/chess.png',
-        text: "点击查看信息"
+        img: '/images/chess.png',
+        text: "点击查看信息",
+        url: "/pages/information/information"
       },
       {
-        url: '/images/book.png',
-        text: "点击查看信息"
+        img: '/images/book.png',
+        text: "点击查看信息",
+        url: "/pages/information/information"
       },
       {
-        url: '/images/painting.png',
-        text: "点击查看信息"
+        img: '/images/painting.png',
+        text: "点击查看信息",
+        url: "/pages/information/information"
       }
     ]
   },
-
+  clickMe: function (event) {
+    console.log(event)
+  },
   /**
    * 生命周期函数--监听页面加载
    */

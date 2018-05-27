@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/information/information",
     "pages/resume-first/resume-first",
     "pages/index/index",
     "pages/logs/logs"
@@ -9,5 +10,24 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "RESUME",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/resume-first/resume-first",
+        "text": "简历1",
+        "iconPath": "/images/resume.png",
+        "selectedIconPath": "/images/resume-select.png",
+        "color": "#000",
+        "selectedColor": "#ba0505"
+      },
+      {
+        "pagePath": "pages/resume-first/resume-first",
+        "text": "简历2",
+        "iconPath": "/images/resume.png",
+        "selectedIconPath": "/images/resume-select.png",
+        "color": "#000",
+        "selectedColor": "#ba0505"
+      }
+    ]
   }
 }
